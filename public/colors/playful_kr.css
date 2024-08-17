@@ -1,0 +1,34 @@
+@import url("./global-config.css");
+
+:root {
+  --primary: rgb(49, 196, 110);
+  --secondary: rgb(107, 82, 203);
+  --tertiary: rgb(49, 196, 110);
+  --success: rgb(52, 161, 110);
+  --selected: rgb(255, 189, 46);
+  --hint: rgb(254, 190, 45);
+  --failure: rgb(255, 38, 92);
+  --text: rgb(196, 198, 222);
+  --text2: rgb(255, 255, 255);
+  --text3: rgb(196, 198, 222);
+  --text5: rgb(255, 255, 255);
+  --textBtn: rgb(255, 255, 255);
+  --border: rgb(77, 80, 128);
+  --background1: rgb(31, 33, 65);
+  --background2: rgb(11, 14, 48);
+  --background2_nonrgb: 11, 14, 48;
+  --background3: rgb(5, 6, 30);
+  --background4: rgb(107, 82, 203);
+  --background5: rgb(29, 32, 82);
+
+  --font-size: 14px;
+  --padding-x: 17.45px;
+  --m-header-height: 61px;
+  --m-header-font-size: 18.4px;
+  --m-account-body-background: rgb(22, 22, 22);
+  --primary-filter: brightness(0) saturate(100%) invert(53%) sepia(99%) saturate(306%) hue-rotate(92deg) brightness(97%) contrast(96%);
+  --text5-filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(723%) hue-rotate(190deg) brightness(110%) contrast(101%);
+  --secondary-filter: brightness(0) saturate(100%) invert(33%) sepia(62%) saturate(1108%) hue-rotate(222deg) brightness(94%) contrast(94%);
+  --text5-filter: brightness(0) saturate(100%) invert(99%) sepia(16%) saturate(2%) hue-rotate(225deg) brightness(116%) contrast(100%);
+
+}

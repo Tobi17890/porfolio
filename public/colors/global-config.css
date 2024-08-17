@@ -1,0 +1,194 @@
+:root {
+  --borderD500: 
+    linear-gradient(0deg, rgba(23, 23, 23, 0.5), rgba(23, 23, 23, 0.5)),
+    linear-gradient(0deg, var(--border), var(--border));
+
+  --bg-opacity: 0;
+  --bg-base-color: var(--primary);
+
+  --bo-t: 0;
+  --bo-l: 0;
+  --bo-w: 100%;
+  --bo-h: 2px;
+  --bo-z: 1;
+  --bo-opacity: 0;
+  --bo-base-color: var(--border);
+
+  --bg-dark-overlay: 23, 23, 23;
+  
+  --bg-light-overlay: 255, 255, 255;
+  --bg-main-d-overlay: 23, 23, 23;
+  --bg-main-l-overlay: 255, 255, 255;
+  --bg-l1350-overlay: 23, 23, 23;
+}
+
+.l-1350 {
+  --bg-dark-overlay: 255, 255, 255;
+  --bg-light-overlay: 23, 23, 23;
+}
+
+.ol-bg-light-2 {
+  background: linear-gradient(
+      0deg,
+      rgba(var(--bg-light-overlay), var(--bg-opacity)),
+      rgba(var(--bg-light-overlay), var(--bg-opacity))
+    ),
+    linear-gradient(0deg, var(--bg-base-color), var(--bg-base-color)) !important;
+}
+
+.ol-bg-dark-2 {
+  background: linear-gradient(
+      0deg,
+      rgba(var(--bg-dark-overlay), var(--bg-opacity)),
+      rgba(var(--bg-dark-overlay), var(--bg-opacity))
+    ),
+    linear-gradient(0deg, var(--bg-base-color), var(--bg-base-color)) !important;
+}
+
+.ol-bg-light-L350 {
+  background: linear-gradient(
+      0deg, 
+      rgba(0, 0, 0, var(--bg-opacity)),
+      rgba(0, 0, 0, var(--bg-opacity))
+    ),
+    linear-gradient(0deg, var(--bg-base-color), var(--bg-base-color)) !important;
+}
+
+.ol-bg-dark-L350 {
+  background: linear-gradient(
+      0deg, 
+      rgba(255, 255, 255, var(--bg-opacity)),
+      rgba(255, 255, 255, var(--bg-opacity))
+    ),
+    linear-gradient(0deg, var(--bg-base-color), var(--bg-base-color)) !important;
+}
+
+.ol-bo-dark-2,
+.ol-bo-light-2 {
+  position: relative;
+}
+
+.ol-bo-dark-2::after {
+  content: "";
+  position: absolute;
+  width: var(--bo-w);
+  height: var(--bo-h);
+  top: var(--bo-t);
+  left: var(--bo-l);
+  z-index: var(--bo-z);
+  background: linear-gradient(
+      0deg,
+      rgba(var(--bg-dark-overlay), var(--bg-opacity)),
+      rgba(var(--bg-dark-overlay), var(--bg-opacity))
+    ),
+    linear-gradient(0deg, var(--bg-base-color), var(--bg-base-color));
+}
+
+.ol-bo-light-2::after {
+  content: "";
+  position: absolute;
+  width: var(--bo-w);
+  height: var(--bo-h);
+  top: var(--bo-t);
+  left: var(--bo-l);
+  z-index: var(--bo-z);
+  background: linear-gradient(
+      0deg,
+      rgba(var(--bg-light-overlay), var(--bg-opacity)),
+      rgba(var(--bg-light-overlay), var(--bg-opacity))
+    ),
+    linear-gradient(0deg, var(--bg-base-color), var(--bg-base-color));
+}
+
+
+/* START: Old Color System */
+.ol-bg-dark {
+  background: linear-gradient(0deg,
+      rgba(var(--bg-dark-overlay), var(--bg-opacity)) 0%,
+      rgba(var(--bg-dark-overlay), var(--bg-opacity)) 100%),
+    linear-gradient(0deg, var(--bg-base-color), var(--bg-base-color));
+}
+
+.ol-bg-light {
+  background: linear-gradient(0deg,
+      rgba(var(--bg-light-overlay), var(--bg-opacity)) 0%,
+      rgba(var(--bg-light-overlay), var(--bg-opacity)) 100%),
+    linear-gradient(0deg, var(--bg-base-color), var(--bg-base-color));
+}
+
+.ol-bo-dark {
+  position: relative;
+}
+
+.ol-bo-dark::after {
+  content: "";
+  position: absolute;
+  width: var(--bo-w);
+  height: var(--bo-h);
+  top: var(--bo-t);
+  left: var(--bo-l);
+  z-index: var(--bo-z);
+  background: linear-gradient(0deg,
+      rgba(var(--bg-dark-overlay), var(--bo-opacity)) 0%,
+      rgba(var(--bg-dark-overlay), var(--bo-opacity)) 100%),
+    var(--bo-base-color);
+}
+
+.ol-bo-light {
+  position: relative;
+}
+
+.ol-bo-light::after {
+  content: "";
+  position: absolute;
+  width: var(--bo-w);
+  height: var(--bo-h);
+  top: var(--bo-t);
+  left: var(--bo-l);
+  z-index: var(--bo-z);
+  background: linear-gradient(0deg,
+      rgba(var(--bg-light-overlay), var(--bo-opacity)) 0%,
+      rgba(var(--bg-light-overlay), var(--bo-opacity)) 100%),
+    var(--bo-base-color);
+}
+/* END: Old Color System */
+
+
+.tc-primary {
+  color: var(--primary);
+}
+
+.tc-1 {
+  color: var(--text);
+}
+.tc-2 {
+  color: var(--text2);
+}
+.tc-3 {
+  color: var(--text3);
+}
+.tc-4 {
+  color: var(--text4);
+}
+.tc-5 {
+  color: var(--text5);
+}
+.tc-btn {
+  color: var(--textBtn);
+}
+
+.bg-1 {
+  background: var(--background1);
+}
+.bg-2 {
+  background: var(--background2);
+}
+.bg-3 {
+  background: var(--background3);
+}
+.bg-4 {
+  background: var(--background4);
+}
+.bg-5 {
+  background: var(--background5);
+}
