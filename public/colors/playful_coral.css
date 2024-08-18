@@ -1,33 +1,33 @@
 @import url("./global-config.css");
 
 :root {
-  --primary: rgb(247, 224, 158);
-  --secondary: rgb(255, 208, 210);
-  --tertiary: rgb(255, 213, 100);
-  --success:  rgb(114, 230, 132);
-  --selected:  rgb(250, 216, 126);
-  --hint:  rgb(249, 211, 11);
-  --failure: rgb(153, 15, 15);
-  --text: rgb(255, 255, 255);
+  --primary: rgb(163, 215, 18);
+  --secondary: rgb(45, 184, 106);
+  --tertiary: rgb(154, 206, 4);
+  --success:  rgb(5, 178, 85);
+  --selected:  rgb(206, 168, 102);
+  --hint:  rgb(254, 190, 45);
+  --failure: rgb(255, 38, 92);
+  --text: rgb(211, 222, 196);
   --text2: rgb(255, 255, 255);
-  --text3:  rgb(255, 250, 236);
-  --text4: rgb(184, 51, 57);
+  --text3:  rgb(225, 227, 250);
+  --text4: rgb(37, 41, 42);
   --text5: rgb(255, 255, 255);
-  --textBtn: rgb(221, 81, 93);
-  --border: rgb(250, 166, 157);
-  --background1: rgb(240, 96, 97);
-  --background2: rgb(242, 125, 126);
-  --background2_nonrgb: 242, 125, 126;
-  --background3: rgb(202, 73, 74);
-  --background4: rgb(230, 166, 167);
-  --background5:  rgb(204, 90, 91);
+  --textBtn: rgb(21, 37, 17);
+  --border: rgb(61, 63, 64);
+  --background1: rgb(39, 45, 43);
+  --background2: rgb(31, 34, 33);
+  --background2_nonrgb: 31, 34, 33;
+  --background3: rgb(37, 41, 42);
+  --background4: rgb(180, 237, 22);
+  --background5:  rgb(37, 41, 42);
 
   --font-size: 14px;
   --register-bg: rgb(255, 255, 255);
-  --primary-filter: brightness(0) saturate(100%) invert(92%) sepia(16%) saturate(1011%) hue-rotate(316deg) brightness(103%) contrast(94%);
-  --secondary-filter: brightness(0) saturate(100%) invert(89%) sepia(18%) saturate(430%) hue-rotate(297deg) brightness(103%) contrast(101%);
+  --primary-filter: brightness(0) saturate(100%) invert(78%) sepia(61%) saturate(1018%) hue-rotate(40deg) brightness(97%) contrast(106%);
+  --secondary-filter: brightness(0) saturate(100%) invert(56%) sepia(83%) saturate(380%) hue-rotate(115deg) brightness(97%) contrast(91%);
   --text5-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(101%);
-  --background1-filter: brightness(0) saturate(100%) invert(63%) sepia(52%) saturate(5917%) hue-rotate(315deg) brightness(101%) contrast(98%);
-  --selected-filter: brightness(0) saturate(100%) invert(90%) sepia(27%) saturate(794%) hue-rotate(319deg) brightness(103%) contrast(94%);
+  --background4-filter: brightness(0) saturate(100%) invert(88%) sepia(34%) saturate(1011%) hue-rotate(28deg) brightness(104%) contrast(105%);
+  --selected-filter: brightness(0) saturate(100%) invert(80%) sepia(33%) saturate(638%) hue-rotate(336deg) brightness(100%) contrast(89%);
 
 }

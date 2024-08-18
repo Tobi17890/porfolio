@@ -11,7 +11,6 @@ export function useFetchUsers(db: Firestore) {
       id: doc.id,
      ...doc.data(),
     }));
-    console.log(users, "jenh ot");
   }
 
   fetchUsers();

@@ -1,10 +1,12 @@
 <template>
     <!-- Header -->
-    <div class="text-red-700">
-        Hello
-    </div>
-    <!-- Main content -->
-
+     <DesktopHeader />
+     <slot></slot>
+    <!-- Content -->
+    <!-- Footer -->
 </template>
 <script lang="ts" setup>
 </script>
+<style lang="scss">
+@import "@/assets/styles/shared.scss";
+</style>
