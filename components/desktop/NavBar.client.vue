@@ -1,7 +1,7 @@
 <template>
     <nav class="flex items-center justify-evenly">
         <div v-for="(item, index) in navItems" :key="index" class="relative group">
-            <nuxt-link :to="item.link" class="inline-block pb-1 mx-4 text-gray-800 "
+            <nuxt-link :to="item.link" class="inline-block text-sm pb-1 mx-4 text-gray-800 "
                 :class="{ 'before:w-full before:opacity-100': isActive(item.link) }">
                 {{ item.name }}
             </nuxt-link>
