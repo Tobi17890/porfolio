@@ -1,6 +1,6 @@
 <template>
     <!-- Header -->
-     <DesktopHeader />
+     <DesktopHeaderPortfolioHeader />
      <slot></slot>
     <!-- Content -->
     <!-- Footer -->
