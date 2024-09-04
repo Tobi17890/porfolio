@@ -34,4 +34,5 @@ export default defineNuxtConfig({
       appId: process.env.appId,
     }
   },
+  
 });

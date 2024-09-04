@@ -1,9 +1,7 @@
 <template>
-    <!-- Header -->
      <DesktopHeaderPortfolioHeader />
      <slot></slot>
-    <!-- Content -->
-    <!-- Footer -->
+    <DesktopFooterPortfolioFooter />
 </template>
 <script lang="ts" setup>
 </script>

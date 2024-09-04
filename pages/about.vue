@@ -1,5 +1,5 @@
 <template>
-    <DesktopContentPortfolioContent />
+    about
 </template>
 <script lang="ts" setup>
 </script>

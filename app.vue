@@ -12,6 +12,13 @@
 </template>
 
 <script lang="ts" setup>
+const route = useRoute();
+const router = useRouter();
+onMounted(() => {
+  if ( route.path === '/') {
+    router.push('/');
+  }
+})
 const globalState = reactive<any>({
   themeColor: 'playful_coral',
   themeDirectory: 'coral-desktop',

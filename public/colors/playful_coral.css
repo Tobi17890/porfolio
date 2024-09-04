@@ -1,7 +1,7 @@
 @import url("./global-config.css");
 
 :root {
-  --primary: rgb(163, 215, 18);
+  --primary: rgb(203, 143, 99);
   --secondary: rgb(45, 184, 106);
   --tertiary: rgb(154, 206, 4);
   --success:  rgb(5, 178, 85);
@@ -15,11 +15,11 @@
   --text5: rgb(255, 255, 255);
   --textBtn: rgb(21, 37, 17);
   --border: rgb(61, 63, 64);
-  --background1: rgb(39, 45, 43);
+  --background1: rgb(0, 0, 0);
   --background2: rgb(31, 34, 33);
   --background2_nonrgb: 31, 34, 33;
   --background3: rgb(37, 41, 42);
-  --background4: rgb(180, 237, 22);
+  --background4: rgb(107, 203, 99);
   --background5:  rgb(37, 41, 42);
 
   --font-size: 14px;

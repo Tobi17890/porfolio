@@ -40,12 +40,32 @@ const svgItems = [
 </script>
 <style scoped lang="scss">
 .svg-icon {
-    margin-right: 1rem;
-    transition: all 0.3s ease;
-    cursor: pointer;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  animation: wave 1s ease-in-out infinite;
 }
 .svg-icon:hover {
-    transform: translateY(-4px);
-    background: var(--primary-color);
+  background: var(--primary-color);
 }
+
+.svg-icon:nth-child(1) {
+  animation-delay: 0s;
+}
+.svg-icon:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.svg-icon:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
 </style>

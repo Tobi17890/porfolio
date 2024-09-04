@@ -177,6 +177,10 @@
   color: var(--textBtn);
 }
 
+.bg-primary {
+  background: var(--primary);
+}
+
 .bg-1 {
   background: var(--background1);
 }

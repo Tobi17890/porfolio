@@ -5,5 +5,16 @@
 html {
   font-size: 16px;
   height: 100vh;
-  font-family: 'Lamarkie', sans-serif;
+  font-family: 'Lamarkie', Arial, sans-serif;
+  font-feature-settings: 'tnum';
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: var(--primary)
+}
+.number-only {
+  font-family: Arial, sans-serif;
 }
